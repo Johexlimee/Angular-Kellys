@@ -3,7 +3,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 10px 20px;
-  background: linear-gradient(45deg, #FFB6C1, #BFD8B8, #B0E0E6, #E6A8D7);
+  background: linear-gradient(45deg, #ff00f7, #7b1cc6, #d10086, #bc4664);
   border-radius: 20px;
   margin-top: 20px;
 }
@@ -38,7 +38,7 @@
 
 .nav-link {
   text-decoration: none;
-  color: rgb(0, 0, 0);
+  color: white;
   font-size: 20px;
   font-weight: 500;
   text-decoration-line: none;
@@ -49,8 +49,6 @@
   color: #dd01f5;
   text-decoration: underline;
 }
-
-
 
 #toggle-icon {
   display: none;  
@@ -87,7 +85,8 @@
   }
 
   .nav-item {
-    margin: 10px 0;  
+    margin: 10px 0;
+    color: white;
   }
 
   .nav-link {
