@@ -17,8 +17,8 @@ export class CheaderComponent {
 
   navbarItems: NavbarItem[] = [
     { title: 'Listar curso', link: 'listcourse' },
-    { title: 'Quienes somos', link: 'postcourse' },
-    { title: 'Direccion', link: 'contact' }
+    { title: '¿Quiénes somos?', link: 'postcourse' },
+    { title: 'Dirección', link: 'contact' }
   ];
 
   isMenuOpen: boolean = false;

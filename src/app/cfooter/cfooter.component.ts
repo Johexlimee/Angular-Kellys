@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrl: './cfooter.component.css'
 })
 export class CfooterComponent {
-
+  //DataBinding por atributo
+  public texto:string="Todos los derechos reservados";
+  public texto2:string="Todos los derechos reservados";
 }
