@@ -8,6 +8,9 @@ import { CheaderComponent } from './cheader/cheader.component';
 import { CformComponent } from './cform/cform.component';
 import { CcourseComponent } from './ccourse/ccourse.component';
 import { FormsModule } from '@angular/forms';
+import { CcontadorComponent } from './ccontador/ccontador.component';
+import { CminComponent } from './cmin/cmin.component';
+import { CaddComponent } from './cadd/cadd.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +18,10 @@ import { FormsModule } from '@angular/forms';
     CfooterComponent,
     CheaderComponent,
     CformComponent,
-    CcourseComponent
+    CcourseComponent,
+    CcontadorComponent,
+    CminComponent,
+    CaddComponent
   ],
   imports: [
     BrowserModule,
