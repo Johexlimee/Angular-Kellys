@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { CminComponent } from './cmin.component';
+import { AddComponent } from './add.component';
 
-describe('CminComponent', () => {
-  let component: CminComponent;
-  let fixture: ComponentFixture<CminComponent>;
+describe('AddComponent', () => {
+  let component: AddComponent;
+  let fixture: ComponentFixture<AddComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [CminComponent]
+      declarations: [AddComponent]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(CminComponent);
+    fixture = TestBed.createComponent(AddComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

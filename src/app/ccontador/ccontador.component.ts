@@ -6,13 +6,10 @@ import { Component } from '@angular/core';
   styleUrl: './ccontador.component.css'
 })
 export class CcontadorComponent {
-  counter:number = 0;
 
-  increment():void{
-    this.counter++;
-  }
+  counter:number = 10;
 
-  decrement():void{
-    this.counter--;
+  handleCounter(value:number){
+    this.counter = value;
   }
 }

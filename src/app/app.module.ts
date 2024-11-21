@@ -9,8 +9,8 @@ import { CformComponent } from './cform/cform.component';
 import { CcourseComponent } from './ccourse/ccourse.component';
 import { FormsModule } from '@angular/forms';
 import { CcontadorComponent } from './ccontador/ccontador.component';
-import { CminComponent } from './cmin/cmin.component';
-import { CaddComponent } from './cadd/cadd.component';
+import { AddComponent } from './ccontador/add/add.component';
+import { MinComponent } from './ccontador/min/min.component';
 
 @NgModule({
   declarations: [
@@ -20,8 +20,8 @@ import { CaddComponent } from './cadd/cadd.component';
     CformComponent,
     CcourseComponent,
     CcontadorComponent,
-    CminComponent,
-    CaddComponent
+    AddComponent,
+    MinComponent,
   ],
   imports: [
     BrowserModule,
