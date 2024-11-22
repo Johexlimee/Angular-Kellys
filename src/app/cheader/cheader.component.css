@@ -1,11 +1,10 @@
-.container {
+.head {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 10px 20px;
   background: linear-gradient(45deg, #ff00f7, #7b1cc6, #d10086, #bc4664);
-  border-radius: 20px;
-  margin-top: 20px;
+  border-radius: 0px 0px 20px 20px;
 }
 
 .logo {
