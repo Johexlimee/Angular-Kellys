@@ -1,0 +1,56 @@
+<div class="container-contador">
+    <h1>Mis notas</h1>
+    <h2>{{nota}}</h2>
+    <div>
+        <button class="btn btn-danger boton" (click)="nota=nota-1"> - </button>
+        <button class="btn btn-success boton" (click)="nota=nota+1"> + </button>
+    </div>
+    <div>
+        <div class="apro" *ngIf="nota>=5 && nota<=10">
+            <span class="material-symbols-rounded">check</span>
+            <h4 class="text">Nota Aprobatoria</h4>
+        </div>
+        <div class="noApro" *ngIf="nota<5 && nota>=0">
+            <span class="material-symbols-rounded">close</span>
+            <h4 class="text">Nota Desaprobatoria</h4>
+        </div>
+        <div class="fuera" *ngIf="nota>10 || nota<0">
+            <span class="material-symbols-rounded">block</span>
+            <h4 class="text">Fuera de rango</h4>
+        </div>
+    </div>
+</div>
+<div class="container-contador">
+    <div class="row">
+        <div>
+            <p>Estudiante: {{nombre}}</p>
+            <p>Edad: {{edad}}</p>
+            <p *ngIf="edad>=18">Es mayor de edad.</p>
+            <p>{{promedio}}</p>
+        </div>
+    </div><br>
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Nota</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let x of notas2; index as i">
+                <th scope="row">{{i+1}}</th>
+                <th>{{x}}</th>
+            </tr>
+        </tbody>
+
+    </table>
+</div>
+<div class="container-contador">
+    <input class="form-control" type="text" [(ngModel)]="valor" placeholder="Escriba un valor">
+    <div [ngSwitch]="valor">
+        <p *ngSwitchCase="'1'">El valor es 1</p>
+        <p *ngSwitchCase="'2'">El Valor es 2</p>
+        <p *ngSwitchDefault>No se reconoce el valor</p>
+    </div>
+</div>
+

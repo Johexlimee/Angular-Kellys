@@ -18,7 +18,7 @@ export class CheaderComponent {
   navbarItems: NavbarItem[] = [
     { title: 'Lista', link: 'listcourse' },
     { title: 'Contador', link: 'contador' },
-    { title: 'Otro coso', link: '' }
+    { title: 'Directivas', link: 'nota' }
   ];
 
   isMenuOpen: boolean = false;

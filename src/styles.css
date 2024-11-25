@@ -2,3 +2,20 @@
 
 @import 'bootstrap/dist/css/bootstrap.min.css'; 
 @import 'material-symbols';
+
+.container-contador{
+    width: 80%;
+    padding: 2%;
+    margin: 2% auto;
+    text-align: center;
+    border: 1px solid #111111;
+    border-radius: 20px;
+    box-shadow: 20px 10px 15px -3px #7c1cc65b, 10px 15px 6px -4px #d100841a;
+}
+
+.boton{
+    width: 80%;
+    padding: 2% auto;
+    text-align: center;
+    border: 1px solid #111111;
+}

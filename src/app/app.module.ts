@@ -11,6 +11,7 @@ import { FormsModule } from '@angular/forms';
 import { CcontadorComponent } from './ccontador/ccontador.component';
 import { AddComponent } from './ccontador/add/add.component';
 import { MinComponent } from './ccontador/min/min.component';
+import { CnotaComponent } from './cnota/cnota.component';
 
 @NgModule({
   declarations: [
@@ -22,6 +23,7 @@ import { MinComponent } from './ccontador/min/min.component';
     CcontadorComponent,
     AddComponent,
     MinComponent,
+    CnotaComponent,
   ],
   imports: [
     BrowserModule,
